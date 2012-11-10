@@ -1,0 +1,23 @@
+section[role="first"] .trip-info .book-trip .book-btn
+  +border-radius(5px)
+  +box-shadow(inset 0 0 0 1px rgba(255, 255, 255, 0.2))
+  float: left
+  display: block
+  width: 118px
+  height: 36px
+  font: 24px/38px "league-gothic", Helvetica, sans-serif
+  letter-spacing: .05em
+  color: #fff
+  text-decoration: none
+  text-transform: uppercase
+  text-align: center
+  text-shadow: 0 2px 0 #b85e10
+  background: $btn-color1
+  background: -webkit-linear-gradient(90deg, $btn-color1 0%, $btn-color2 100%)
+  background: -moz-linear-gradient(90deg, $btn-color1 0%, $btn-color2 100%)
+  border: 1px solid $btn-border
+  border-bottom: 3px solid $btn-border
+  &:active
+    @include box-shadow(none)
+    border-bottom: 1px solid $btn-border
+    border-top: 3px solid $btn-border

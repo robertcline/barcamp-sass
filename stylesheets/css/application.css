@@ -1,0 +1,57 @@
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #6d6d6d;
+  background-color: #f4f2ee; }
+
+a {
+  color: #0000ee;
+  cursor: pointer;
+  text-decoration: none; }
+  a:visited {
+    color: #551a8b; }
+  a:hover {
+    color: #0066ee; }
+  a:focus, a:hover, a:active {
+    outline: 0; }
+
+section[role="first"] .trip-info .book-trip .book-btn {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  float: left;
+  display: block;
+  width: 118px;
+  height: 36px;
+  font: 24px/38px "league-gothic", Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 2px 0 #b85e10;
+  background: #ef813b;
+  background: -webkit-linear-gradient(90deg, #ef813b 0%, #e17835 100%);
+  background: -moz-linear-gradient(90deg, #ef813b 0%, #e17835 100%);
+  border: 1px solid #ba5d24;
+  border-bottom: 3px solid #ba5d24; }
+  section[role="first"] .trip-info .book-trip .book-btn:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ba5d24;
+    border-top: 3px solid #ba5d24; }
